@@ -21,7 +21,7 @@ Leveraging a combination of **Text**, **Audio**, and **Visual** data, the system
 This code is heavily modularized but designed to run seamlessly in **Google Colab**. It expects your Google Drive to be mounted and the project root to contain both your Python scripts and your raw data. Ensure your Drive contains the following structure before running:
 
 ```text
-/content/drive/MyDrive/Multimodal_Project/
+/content/drive/MyDrive/multimodal_project/
 │
 ├── config.py                # Single source of truth for paths, hyperparams, and class maps
 ├── preprocess.py            # Converts raw text/audio/video into PyTorch tensors
